@@ -110,6 +110,7 @@
         background-color: #ffffff;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
         min-height: 100px;
+        z-index: 501;
     }
     
     .nav-link {
@@ -153,6 +154,18 @@
         font-weight: 300;
     }
     
+    .p-textosm {
+        color: #1a1a1a;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .p-textolg {
+        color: #1a1a1a;
+        font-size: 28px;
+        font-weight: 300;
+    }
+    
     .p-ofrecemos {
         color: #fff;
         font-size: 24px;
@@ -169,8 +182,18 @@
         filter: brightness(50%);
     }
     
+    .hr-white {
+        color: #ffffff;
+    }
+    
     .content-center {
         max-width: 800px;
+        margin: 0 auto 60px auto;
+        text-align: center;
+    }
+    
+    .content-centerxl {
+        max-width: 900px;
         margin: 0 auto 60px auto;
         text-align: center;
     }
@@ -207,7 +230,7 @@
         position: absolute;
         bottom: 25px;
         left: 25px;
-        z-index: 9000;
+        z-index: 500;
     }
     
     .portfolio-details h2 {
@@ -410,6 +433,12 @@
         font-weight: 400;
     }
     
+    .h5-dark {
+        color: #ffffff;
+        font-size: 50px;
+        font-weight: 400;
+    }
+    
     .h4-servicios {
         color: #fff;
         font-size: 40px;
@@ -473,11 +502,25 @@
         color: #fff;
     }
     
-    .card-au {
+    .card-fb {
         box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
         overflow: hidden;
         border-radius: none;
         background-color: #3b5998;
+    }
+    
+    .card-gm {
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        border-radius: none;
+        background-color: #db4a39;
+    }
+    
+    .card-ph {
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        border-radius: none;
+        background-color: #0060af;
     }
     
     .socials i {
@@ -489,7 +532,7 @@
         width: 100px;
         height: 100px;
         margin-top: 40px;
-        font-size: 100px;
+        font-size: 110px;
         color: #fff;
     }
     
@@ -529,6 +572,40 @@
         color: #b2d7fa;
         padding: 0 10px;
         text-decoration: none;
+    }
+    /*=================CONTACT=====================*/
+    
+    #contacto {
+        background-image: url('../images/hero-contact.jpg');
+        background-size: cover;
+        padding-top: 90px;
+        min-height: 750px;
+        color: #fff;
+    }
+    /*mapa*/
+    
+    .map-container-5 {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+    }
+    
+    .map-container-5 iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+    /*==========VIDEO===========*/
+    
+    .video {
+        max-width: 700px;
+    }
+    
+    .h2-white {
+        color: #ffffff;
     }
     /*Media query*/
     /* X-Small devices (portrait phones, less than 576px)*/
