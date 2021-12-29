@@ -4,6 +4,7 @@ const typed = new Typed('.typed', {
         '<i class="welcome">venta</i>',
         '<i class="welcome">actualización</i>',
         '<i class="welcome">armado</i>',
+        '<i class="welcome">asesoría</i>',
     ],
     //stringsElement: '#cadenas-texto',
     typeSpeed: 80,

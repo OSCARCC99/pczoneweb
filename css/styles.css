@@ -163,7 +163,7 @@ section {
 
 .p-heroTitle {
     color: #fff;
-    font-size: 36px;
+    font-size: 38px;
     font-weight: 500;
 }
 
@@ -562,6 +562,13 @@ h5 {
     overflow: hidden;
     border-radius: none;
     background-color: #0060af;
+}
+
+.card-wp {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: none;
+    background-color: #128C7E
 }
 
 .socials i {
